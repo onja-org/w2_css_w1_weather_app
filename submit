@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# submit — thin shim that execs submit.py with python3.
+# Usage: ./submit <student-id>
+exec python3 "$(dirname "$0")/submit.py" "$@"

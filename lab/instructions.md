@@ -129,7 +129,7 @@ When you're done:
 1. Save all changes to `index.html` and `style.css`
 2. Ensure your HTML is semantic and valid
 3. Test your app functionality with the provided JavaScript
-4. From the project root, run `bash submit.sh` to submit your work
+4. From the project root, run `./submit <your-student-id>` to submit your work
 
 ## 🌟 Stretch Goals (Optional)
 

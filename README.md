@@ -34,7 +34,7 @@ w2_css_w1_weather_app/
 │   ├── tests/            ← Automated tests
 │   └── package.json      ← Test dependencies and scripts
 ├── lab.json              ← Submission config (don't edit)
-├── submit.sh             ← Run this when you're done
+├── submit                ← Run this when you're done
 └── README.md             ← You are here
 ```
 
@@ -63,7 +63,7 @@ An HTML test report is generated at `lab/tests/test-results.html` after each run
 When all tasks are complete, from the project root run:
 
 ```bash
-bash submit.sh
+./submit <your-student-id>
 ```
 
 This runs automated checks and records your submission in Canvas. You can submit multiple times — the most recent submission counts.
